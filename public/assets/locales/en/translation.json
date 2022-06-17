@@ -1,0 +1,31 @@
+{
+  "about-header": "About",
+  "services-header": "Services",
+  "contacts-header": "Contacts",
+  "name": "NIGHT VISION SYSTEMS",
+  "contact": "CONTACT",
+
+  "about": "ABOUT THE COMPANY",
+  "ooo": "Night Vision Systems LLC was established in 2004. The main activity of the company is the development of optoelectronic devices for third-party customers. Over the current years, the company has developed over 70 models of devices: night and thermal imaging (based on OEM modules) surveillance devices; day, night and thermal imaging sights for hunting weapons; night and thermal imaging attachments for daytime telescopes; various accessories for the above devices; laser pointers and illuminators.",
+  "ooo-next": "These devices are intended for use by naturalists, hunters, tourists, yachtsmen, security, scientific activity, in industry. The devices are not intended for military use. More than half of the developed products were mass-produced at the enterprises of Belarus, Ukraine and China. The company also provides services of placement at Belarussian enterprises and design support for the production of optoelectronic devices according to the customer documentation, as well as acceptance of manufactured products. Since 2018, company has been engaged in the assembly production of devices and accessories for them.",
+  "services": "The company offers the following services:",
+  "service1": "Development of design documentation for optoelectronic devices, preferably for non-military applications, from technical specifications to operational documentation",
+  "service2": "Calculation of optical layouts, development of documentation for optical parts, development of the design of optical assemblies, verification or the parameters of optical parts and assemblies",
+  "service3": "Prototypes production",
+  "service4": "Manufacturing batches of devices",
+  "service5": "Development and production of testing and alignment equipment, assembly fixtures and special tools;",
+  "service6": "Placement of production at the enterprises of Belarus and China different parts: machined from metal alloy or structural plastics, optical parts, injection molding plastic parts, rubber parts",
+
+
+  "contacts": "CONTACTS",
+  "address": "Address: 14, Francysk Scoryna street, #401 MINSK, 220114, Republic of Belarus",
+  "email": "e-mail: nvs.rdo@gmail.com",
+  "telephone": "telephone +375 17 257079",
+  "fax": "fax +375 17 3739851",
+  "mobile": "mobile +375 29 6090558",
+  "get-in-touch": "get in touch",
+  "form-name": "Your Name",
+  "form-email": "Your Email",
+  "form-message": "Your message",
+  "form-button": "Send"
+}

@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "Segoe UI";
+  src: url('../public/fonts/segoe.ttf');
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Segoe UI";
+}
+
+:root{
+  --dark-bg: #262626;
+  --gray-1: #BCB4B4;
+  --deep-dark: #1E1E1E;
+  --gray-2: #363636;
+  --white : white;
+  --black: black;
+}
+
+html{
+  background-color: var(--dark-bg);
+}
+
+ul,li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+

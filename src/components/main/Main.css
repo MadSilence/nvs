@@ -1,0 +1,143 @@
+@media (max-width: 480px) {
+    .example-img {
+        width: 200px;
+        height: 180px;
+    }
+
+    .main-content-wrapper {
+        width: 95%;
+        margin: auto;
+    }
+
+    .service-container {
+        max-width: 100%;
+    }
+
+    .about {
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: start;
+        justify-content: flex-start;
+        text-align: left;
+    }
+}
+
+@media (min-width: 481px) {
+    .example-img {
+        width: 600px;
+    }
+
+    .main-content-wrapper {
+
+    }
+
+    .service-container {
+        max-width: 1200px;
+        width: 90vw;
+        margin: auto;
+    }
+
+    .about {
+        padding-top: 10vh;
+        width: 90vw;
+        max-width: 1200px;
+        margin: auto;
+        height: 60vh;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: start;
+        justify-content: flex-start;
+        text-align: left;
+
+    }
+
+    .about-text {
+        font-size: 1.2rem;
+        line-height: 1.3em;
+    }
+
+    .text {
+        width: 80%;
+    }
+
+    .crosshair {
+        position: relative;
+        bottom: 100px;
+        left: 200px;
+        padding-bottom: -200px;
+        margin-bottom: -200px;
+    }
+
+    .warning {
+        height: 30vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-color: var(--deep-dark);
+    }
+
+    .warning-text {
+        font-weight: 400;
+        width: 50%;
+        font-size: 18px;
+        line-height: 150%;
+    }
+
+    .service-header {
+        text-align:center;
+        padding: 5vh 0;
+    }
+
+    .about-img {
+
+    }
+
+
+
+    .service-container {
+        max-width: 1200px;
+        width: 90vw;
+    }
+
+    .service-wrapper {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 2rem 9rem;
+    }
+
+    .service {
+        width: 100%;
+        max-width: 300px;
+        text-align: center;
+        border-radius: 8px;
+    }
+
+    .service-info {
+        margin-top: 1rem;
+        background-color: var(--deep-dark);
+        padding: 1rem;
+        border-radius: 12px;
+    }
+
+    .author {
+        margin: 0;
+        padding: 5px;
+    }
+
+    .service-img {
+        height: 180px;
+        width: 300px;
+        border-radius: 12px;
+        object-position: 50% 50%;
+    }
+}
+
+
+
+
+
+
+
