@@ -23,8 +23,8 @@
     }
 
     .logo {
-        width: 30px;
-        height: 25px;
+        width: 50px;
+        height: 42px;
         padding-right: 30px;
         background-color: transparent;
     }
@@ -53,6 +53,30 @@
         flex-direction: column;
     }
 
+    .nav-group {
+        display: flex;
+        justify-content: space-between;
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    .anchor-link {
+        padding: 5px 5px;
+        text-decoration: none;
+    }
+
+    .anchor-link:visited {
+        color: var(--gray-1);
+    }
+
+    .anchor-link:active {
+        color: var(--gray-1);
+    }
+
+    .anchor-link:link {
+        color: var(--gray-1);
+    }
+
 
     /**/
     .feedback {
@@ -65,6 +89,22 @@
         align-self: center;
         margin-right: 20px;
         font-size: 10px;
+    }
+
+    .sec-center {
+        display: flex;
+    }
+
+
+    .lng-btn {
+        background-color: transparent;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        width: 100%;
+        font-weight: 500;
+        font-size: 15px;
+        color: var(--gray-1);
     }
 }
 
@@ -151,8 +191,6 @@
     }
 
 
-
-    /*//////////////////////*/
     .sec-center {
         display: flex;
     }

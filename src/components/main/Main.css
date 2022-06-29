@@ -1,11 +1,10 @@
 @media (max-width: 480px) {
     .example-img {
-        width: 200px;
-        height: 180px;
+        width: 150px;
+        height: 135px;
     }
 
     .main-content-wrapper {
-        width: 95%;
         margin: auto;
     }
 
@@ -21,15 +20,78 @@
         justify-content: flex-start;
         text-align: left;
     }
+
+    .about-text {
+        margin-left: 5%;
+    }
+
+    .service-header {
+        text-align:center;
+        padding: 5vh 0;
+        font-size: 20px;
+        width: 80%;
+        margin: auto;
+    }
+
+    .warning {
+        height: 30vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-color: var(--deep-dark);
+    }
+
+    .warning-text {
+        width: 90%;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 150%;
+    }
+
+    .service-container {
+        max-width: 1200px;
+        width: 90vw;
+    }
+
+    .service-wrapper {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        justify-items: center;
+        gap: 2rem 100px;
+        margin: 0 50px;
+    }
+
+    .service {
+        width: 100%;
+        max-width: 300px;
+        text-align: center;
+        border-radius: 8px;
+    }
+
+    .service-info {
+        margin-top: 1rem;
+        background-color: var(--deep-dark);
+        padding: 1rem;
+        border-radius: 12px;
+    }
+
+    .author {
+        margin: 0;
+        padding: 5px;
+    }
+
+    .service-img {
+        height: 200px;
+        width: 310px;
+        border-radius: 12px;
+        object-position: 50% 50%;
+    }
 }
 
 @media (min-width: 481px) {
     .example-img {
         width: 600px;
-    }
-
-    .main-content-wrapper {
-
     }
 
     .service-container {
@@ -62,14 +124,6 @@
         width: 80%;
     }
 
-    .crosshair {
-        position: relative;
-        bottom: 100px;
-        left: 200px;
-        padding-bottom: -200px;
-        margin-bottom: -200px;
-    }
-
     .warning {
         height: 30vh;
         display: flex;
@@ -94,8 +148,6 @@
     .about-img {
 
     }
-
-
 
     .service-container {
         max-width: 1200px;
