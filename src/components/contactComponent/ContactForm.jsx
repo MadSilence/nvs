@@ -17,7 +17,7 @@ const ContactForm = () => {
         e.preventDefault();
 
         emailjs.sendForm('service_b9bfh8a', 'template_8rju3mf', form.current, 'V0Einrog7BysY6DGQ')
-            .then((result) => {
+            .then(() => {
                 alert("Message Sent Successfully");
                 setName("")
                 setEmail("")
@@ -49,7 +49,7 @@ const ContactForm = () => {
                     </div>
                 </div>
                 <div className="right-address">
-                    <form onSubmit={sendMessage} ref={form}>
+                    <form onSubmit={sendMessage} ref={form} className="email-form">
                         <div className="form-group">
                             <label htmlFor="name">
                                 {t('form-name')}
